@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.532),
+    rgba(11, 11, 11, 0.224)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn01UkN0WYTP2mksdPMCjPSiW3QyPjdkB9IO61qp1CPUm_hUlk-TvlqNw&s=10") center/cover no-repeat;
+    min-height: 100Vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: #0e0f0f31;
+    padding: 20px;
+    border: 1px solid rgba(38, 38, 38, 0.13);
+    border-radius: 18px;
+    width: 610px;
+    border: 1px solidrgba(16, 16, 16, 0.5);
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.856);
+    font-size: 20px;
+    width: calc(100% -100px);
+    color: rgb(16, 16, 18);
+}
+    
+
+.botao {
+    border: none;
+    border-radius: 50%;
+    padding: 9px;
+    background-color: rgb(249, 255, 255);
+    margin-left: 9px;
+    float: right;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(40, 41, 41);
+    transition: scale(1.1);
+}
+
+.caoxa-media {
+    margin-top: 30px;
+}
+
+.icone {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.cidade {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #141515da
+}
+
+.temp {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.botao-ia {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #044cab;
+}
+
+.botao-ia:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.resposta-ia {
+    color: rgb(43, 49, 38);
+    margin-top: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.previsao {
+    margin-top: 24px;
+    text-align: left;
+}
+
+.previsao h3 {
+    color: #141515;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.lista-previsao {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.cartao-previsao {
+    flex: 0 0 105px;
+    padding: 10px 8px;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.85);
+    text-align: center;
+}
+
+.cartao-previsao h4 {
+    color: #141515;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.cartao-previsao img {
+    width: 52px;
+    height: 52px;
+}
+
+.descricao-previsao {
+    min-height: 32px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.temperaturas-previsao {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 8px;
+    color: #0e0f0f;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.erro,
+.carregando {
+    padding: 12px 0;
+    color: #141515;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        padding: 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .caixa-maior {
+        width: 100%;
+        max-width: 400px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .input-cidade {
+        width: calc(100% - 55px);
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .botao {
+        padding: 8px;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .caoxa-media {
+        margin-top: 20px;
+    }
+
+    .icone {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cidade {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+
+    .temp {
+        font-size: 26px;
+    }
+
+    .botao-ia {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .resposta-ia {
+        font-size: 16px;
+    }
+
+    .previsao {
+        margin-top: 20px;
+    }
+
+    .previsao h3 {
+        font-size: 16px;
+    }
+
+    .lista-previsao {
+        gap: 8px;
+    }
+
+    .cartao-previsao {
+        flex: 0 0 90px;
+        padding: 8px 5px;
+    }
+
+    .cartao-previsao img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .descricao-previsao {
+        font-size: 11px;
+    }
+
+    .temperaturas-previsao {
+        font-size: 11px;
+    }
+}
