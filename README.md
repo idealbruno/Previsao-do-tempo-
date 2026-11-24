@@ -40,5 +40,5 @@ Este projeto é uma aplicação web simples e interativa que permite consultar a
 
   ---
 
-  Interface simples e moderna com fundo dinâmico e informações claras do clima. https://idealbruno.github.io/Previsao-do-tempo/
+  Interface simples e moderna com fundo dinâmico e informações claras do clima. https://idealbruno.github.io/Previsao-do-tempo-/
 
