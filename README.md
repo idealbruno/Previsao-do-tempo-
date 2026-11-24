@@ -1,20 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este modelo oferece uma configuração mínima para utilizar o React no Vite, com HMR e algumas regras do ESLint.
 
-Currently, two official plugins are available:
+Atualmente, dois plugins oficiais estão disponíveis:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+@vitejs/plugin-react utiliza o Oxc
+@vitejs/plugin-react-swc utiliza o SWC
 
-## React Compiler
+## Compilador do React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O React Compiler não está habilitado neste modelo devido ao seu impacto no desempenho de desenvolvimento e de build. Para adicioná-lo, consulte [esta documentação](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+383
+## Expandindo a configuração do ESLint
 
+Se você estiver desenvolvendo uma aplicação para produção, recomendamos o uso de TypeScript com regras de *lint* que levam em conta os tipos (*type-aware lint rules*) habilitadas. Consulte o [modelo para TypeScript](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) para obter informações sobre como integrar o TypeScript e o [`typescript-eslint`](https://typescript-eslint.io) ao seu projeto.
 
 # 🌦️ Previsão do Tempo com IA
 
